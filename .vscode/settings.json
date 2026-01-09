@@ -31,7 +31,7 @@
   "css.format.newlineBetweenRules": true,
   "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features",
-    }
+    },
   // Git settings for beginners - simplify source control
   "git.enableSmartCommit": true, // automatically staged
   "git.confirmSync": false,
