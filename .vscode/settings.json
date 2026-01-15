@@ -8,7 +8,7 @@
   "editor.defaultFormatter": "vscode.html-language-features",
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
- 
+
   "editor.quickSuggestions": {
     "comments": "off",
     "strings": "off",
@@ -16,7 +16,7 @@
   },
   "editor.parameterHints.enabled": false,
   "editor.suggestOnTriggerCharacters": false,
-  "editor.hover.enabled": "off", //false
+  "editor.hover.enabled": "on", 
   "editor.inlineSuggest.enabled": false,
   "html.format.enable": true,
   "html.format.maxPreserveNewLines": 2,
