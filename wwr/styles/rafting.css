@@ -1,0 +1,103 @@
+/* 15 January 2025 */
+
+:root {
+    --primary-color: forestgreen;
+    --secondary-color: #f4a261;
+    /*warm-sand;*/
+    --accent1-color: darkslateblue;
+    --accent2-color: #e9c46a;
+    /*lightgoldenyellow;*/
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*to check boxes*/
+    /* border: 2px solid black; */
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    background-color: var(--accent2-color);
+}
+
+article {
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--accent2-color);
+    text-align: left;
+    opacity: .7;
+    color: var(--accent1-color);
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: left;
+    font-size: x-small;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia a img {
+    width: 25px;
+
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 175px;
+}
