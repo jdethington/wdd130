@@ -4,8 +4,8 @@
     --primary-color: forestgreen;
     --secondary-color: #f4a261;
     /*warm-sand;*/
-    --accent1-color: darkslateblue;
-    --accent2-color: #e9c46a;
+    --accent1-color: blue;
+    --accent2-color: #1f701f;
     /*lightgoldenyellow;*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -16,7 +16,7 @@
     padding: 0;
     box-sizing: border-box;
     /*to check boxes*/
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 
 body {
@@ -29,6 +29,11 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+header img {
+    width: 100px;
+    height: auto;
 }
 
 h1,
@@ -83,7 +88,7 @@ footer {
 }
 
 .socialmedia a img {
-    width: 25px;
+    width: 40px;
 
 }
 
