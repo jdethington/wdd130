@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    /* border added for learning purpose only */
+    border: 1px solid black;
 }
 
 :root {
@@ -59,7 +60,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
 }
 
 p {
@@ -83,7 +84,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 25px;
-    left: 75px;
+    left: 70px;
     /* color: var(--color-text-dark); */
 }
 
