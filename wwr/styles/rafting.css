@@ -25,7 +25,7 @@ body {
 header,
 main,
 footer {
-    max-width: 1024px;
+    max-width: 840px;
     min-width: 512px;
     margin: 0 auto;
 }
@@ -33,13 +33,13 @@ footer {
 header {
     background-color: var(--secondary-background-color);
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 75px auto;
     align-items: center;
     margin-bottom: 1rem;
 }
 
 header img {
-    width: 150px;
+    width: 75px;
     height: auto;
 }
 
@@ -56,9 +56,9 @@ nav li {
 nav a {
     display: block;
     text-align: center;
-    padding: 1rem;
+    /* padding: 1rem; */
     text-decoration: none;
-    font-size: 1.5rem;
+    /* font-size: 1.rem; */
     font-weight: bolder;
     color: var(--text2-color);
 }
@@ -70,13 +70,17 @@ h2 {
     background-color: var(--secondary-background-color);
 }
 
+section,
 nav,
 p,
-section,
 article {
     margin: 16px;
     padding: 8px;
 }
+
+/* section {
+    margin: 16px 0px;
+} */
 
 h2 {
     text-align: center;
@@ -109,7 +113,7 @@ footer nav {
 }
 
 .socialmedia img {
-    width: 40px;
+    width: 30px;
 
 }
 
@@ -163,7 +167,7 @@ figure {
 }
 
 .navigation img {
-    width: 150px;
+    max-width: 126px;
 }
 
 .navigation2 {
