@@ -1,4 +1,4 @@
-/* 23 January 2025 */
+/* 4 February 2026 */
 
 :root {
     --primary-background-color: #247;
@@ -31,22 +31,21 @@ footer {
 }
 
 header {
-    background-color: var(--secondary-background-color);
+    /* background-color: var(--secondary-background-color); */
     display: grid;
-    grid-template-columns: 75px auto;
+    grid-template-columns: 150px auto;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 header img {
-    width: 75px;
+    width: 150px;
     height: auto;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    /* align-self: stretch; */
 }
 
 nav li {
@@ -60,7 +59,7 @@ nav a {
     text-decoration: none;
     /* font-size: 1.rem; */
     font-weight: bolder;
-    color: var(--text2-color);
+    color: var(--text1-color);
 }
 
 h1,
