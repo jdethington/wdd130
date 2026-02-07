@@ -17,7 +17,6 @@
 <body>
     <header>
         <img src="images/z-raftingcompas.jpg" alt="Logo for White Water Rafting">
-        <!-- <p>Rafting Company Name</p> -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -28,49 +27,76 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <!-- <img src="images/rafting16-1024.jpg" alt="Background Image containing a raft in river"> -->
-            <!-- Check image size -->
+        <div class="address">
             <h1>Rafting Company Title</h1>
-            <p>123 Main River Street <br>Kolob, California <br>+1 999 999 999
-                <br>info@whitewater.com</p>
-            <article>
-                <img src="images/rafting10-256-tiny.jpg" alt="Happy Clients">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quasi,
-                    odio
-                    impedit neque, aut doloribus, nulla deserunt porro animi voluptate illum dicta
-                    quia
-                    facere ipsum inventore illo vitae fugit!</p>
-            </article>
+            <p>123 Main River Street </p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
         </div>
-        <section class="navigation2">
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti sint
-                tempora iusto. Quia quisquam mollitia animi similique accusamus odit officia at,
-                eveniet sunt voluptates nostrum eum, praesentium nisi! Repudiandae?</p>
-            <img src="images/rafting10-256-tiny.jpg" alt="img 1">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo maiores optio
-                illum. Fuga cum nostrum fugiat cupiditate provident est accusamus quod dolorum
-                quisquam assumenda similique sit, culpa libero veritatis enim?</p>
-        </section>
-        <section class="navigation">
-            <h2>Adventure Awaits You!</h2>
-            <figure><img src="images/rafting10-256-tiny.jpg" alt="img 1">
-                <figcaption>Rafting 1</figcaption>
-            </figure>
-            <figure><img src="images/rafting10-256-tiny.jpg" alt="img 1">
-                <figcaption>Rafting 2</figcaption>
-            </figure>
-            <figure><img src="images/rafting10-256-tiny.jpg" alt="img 1">
-                <figcaption>Rafting 3</figcaption>
-            </figure>
-            <figure><img src="images/rafting10-256-tiny.jpg" alt="img 1">
-                <figcaption>Rafting 4</figcaption>
-            </figure>
-            <figure><img src="images/rafting10-256-tiny.jpg" alt="img 1">
-                <figcaption>Rafting 5</figcaption>
-            </figure>
+        <section class="section2">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d387205.00572887086!2d-114.35878801346476!3d33.53896870009453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1770224467482!5m2!1sen!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form>
+                <fieldset>
+                    <div class="form-item column2">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" autocomplete="name">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" autocomplete="email">
+                    </div>
+                </fieldset>
 
+                <fieldset>
+                    <div class="form-item column2">
+                        <p>Message Purpose</p>
+                        <div>
+                            <div class="form-item column3">
+                                <input type="radio" name="purpose" id="inquery">
+                                <label for="inquery">General Inquiry</label>
+                            </div>
+                            <div class="form-item column3">
+                                <input type="radio" name="purpose" id="question">
+                                <label for="question">Reservation Question</label>
+                            </div>
+                            <div class="form-item column3">
+                                <input type="radio" name="purpose" id="suggestion">
+                                <label for="suggestion">Website Suggestion</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="2"
+                          placeholder="Type here"></textarea>
+                    </div>
+                    <div class="form-item column3">
+                        <input type="checkbox" name="subscribe" id="subscribe">
+                        <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div>
+                <figure><img src="images/profile.jpg" alt="Employee 1">
+                    <figcaption>Jacob</figcaption>
+                </figure>
+                <figure><img src="images/profile.jpg" alt="Employee 2">
+                    <figcaption>Dwayne</figcaption>
+                </figure>
+                <figure><img src="images/superstition-mountains.jpg" alt="Employee 3">
+                    <figcaption>Ethington</figcaption>
+                </figure>
+            </div>
         </section>
 
     </main>

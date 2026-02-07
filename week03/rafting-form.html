@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/frafting-form.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item column2">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" autocomplete="name">
+            </div>
+            <div class="form-item column2">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" autocomplete="email">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Message Purpose</legend>
+            <div class="form-item column">
+                <input type="radio" name="purpose" id="inquery">
+                <label for="inquery">General Inquiry</label>
+            </div>
+            <div class="form-item column">
+                <input type="radio" name="purpose" id="question">
+                <label for="question">Reservation Question</label>
+            </div>
+            <div class="form-item column">
+                <input type="radio" name="purpose" id="suggestion">
+                <label for="suggestion">Website Suggestion</label>
+            </div>
+            <div class="form-item column1">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" placeholder="Type here"></textarea>
+            </div>
+            <div class="form-item column">
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+            </div>
+        </fieldset>
+
+        <button type="submit">Get in Touch!</button>
+    </form>
+
+
+</body>
+
+</html>
