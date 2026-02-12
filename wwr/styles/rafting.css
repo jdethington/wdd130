@@ -168,10 +168,6 @@ footer nav {
     /* grid-template-columns: repeat(5, 1fr); */
 }
 
-.navigation h2 {
-    /* grid-column: span 5; */
-}
-
 .navigation div {
     display: flex;
 
