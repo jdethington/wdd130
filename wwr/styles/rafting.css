@@ -295,6 +295,11 @@ button:hover {
     color: var(--text1-color);
 }
 
+.hero button:hover {
+    background-color: var(--text1-color);
+    color: var(--text2-color);
+}
+
 .section2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
