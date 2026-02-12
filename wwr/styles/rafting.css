@@ -2,7 +2,7 @@
 
 :root {
     --primary-background-color: #247;
-    --secondary-background-color: steelblue;
+    --secondary-background-color: lightblue;
     --text1-color: #000;
     --text2-color: #fff;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -333,7 +333,7 @@ figcaption {
     /* width: 500; */
     top: 0px;
     bottom: 50px;
-    color: var(--text2-color);
+    color: var(--text1-color);
 }
 
 .trips {
@@ -383,9 +383,9 @@ td {
 }
 
 thead th {
-    background-color: #000;
+    background-color: var(--text1-color);
     padding: 8px 10px;
     border-radius: 2rem;
-    color: #fff;
+    color: var(--text2-color);
     font-weight: 700;
 }
