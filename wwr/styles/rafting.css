@@ -114,6 +114,7 @@ footer nav {
 
 .hero {
     position: relative;
+    min-width: 520px;
 }
 
 .hero article {
@@ -123,6 +124,7 @@ footer nav {
     text-align: left;
     opacity: .7;
     color: var(--text1-color);
+    min-width: 500px;
 }
 
 .hero h1 {
@@ -149,11 +151,16 @@ footer nav {
 
 .navigation {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: repeat(5, 1fr); */
 }
 
 .navigation h2 {
-    grid-column: span 5;
+    /* grid-column: span 5; */
+}
+
+.navigation div {
+    display: flex;
+
 }
 
 .navigation figure {
@@ -167,6 +174,7 @@ footer nav {
 
 .history {
     display: grid;
+    margin: 0;
     /* grid-template-columns: repeat(3, 1fr); */
     /* justify-items: center; */
     /* background-color: lightgray; */
@@ -178,9 +186,11 @@ footer nav {
 }
 
 .history img {
+    width: 256px;
+    height: auto;
     place-items: center;
     box-shadow: 0 0 30px gray;
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 .address {
@@ -292,9 +302,10 @@ iframe {
 figcaption {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .employees img {
     width: 125px;
+    margin: .5rem;
 }
