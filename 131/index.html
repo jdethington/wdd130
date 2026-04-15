@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Jake's Legendairy Cheese - Handcrafted, legendary cheeses from happy cows. Fresh, flavorful, and farm-to-table.">
+    <title>Jake's Legendairy Cheese</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">🧀 Jake's Legendairy</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cheeses">Cheeses</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Legendary Cheese,<br>From Happy Cows</h1>
+                <p>Handcrafted in small batches with love and the finest ingredients.</p>
+                <button onclick="scrollToSection('cheeses')" class="cta-btn">Shop Our
+                    Cheeses</button>
+            </div>
+        </section>
+
+        <!-- Cheeses Section -->
+        <section id="cheeses" class="section">
+            <h2>Our Legendairy Cheeses</h2>
+            <div id="cheese-grid" class="cheese-grid"></div>
+        </section>
+
+        <!-- About / Cows Section -->
+        <section id="about" class="section about">
+            <h2>We Love Our Cows</h2>
+            <div class="about-content">
+                <img src="images/farm-cows.jpg"
+                  alt="Happy cows on the farm at Jake's Legendairy Cheese" loading="lazy">
+                <p>At Jake's Legendairy Cheese, every wheel starts with happy, grass-fed cows. We
+                    believe great cheese comes from great care — from the pasture to your plate.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="section contact">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message or Cheese Request</label>
+                <textarea id="message" rows="5" required></textarea>
+
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+            <p id="form-message" class="form-feedback"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jake's Legendairy Cheese • All Rights Reserved</p>
+        <p>Made with 🧀 for WDD131</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
